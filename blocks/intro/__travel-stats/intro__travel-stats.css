@@ -1,0 +1,26 @@
+@import url(./__item/travel-stats__item.css);
+@import url(./__item/__item_bold/travel-stats__item_bold.css);
+
+.intro__travel-stats {
+    max-width: 690px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .into__travel-stats {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__travel-stats {
+        max-width: 288px;
+    }
+}

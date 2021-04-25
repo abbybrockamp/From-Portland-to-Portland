@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    .lead__container.wrapper_narrow {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__container.wrapper_narrow {
+        padding: 0;
+    }
+}
