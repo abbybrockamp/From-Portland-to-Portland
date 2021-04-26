@@ -1,8 +1,14 @@
 .footer__link {
     text-decoration: none;
     color: #fff;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
 }
 
 .footer__link:visited {
     color:white;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }

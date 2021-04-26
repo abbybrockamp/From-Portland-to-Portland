@@ -7,4 +7,10 @@
     color: #fff;
     margin: 0;
     padding: 0;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+}
+
+.place__website__link:hover {
+    opacity: 0.8;
 }
