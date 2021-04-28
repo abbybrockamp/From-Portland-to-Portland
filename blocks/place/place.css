@@ -9,22 +9,17 @@
 .place {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 148px 80px;
+    margin-bottom: 80px;
 }
 
 .place:last-of-type {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 48px 80px;
-    }
-    
-    .place:last-of-type {
-        padding-bottom: 0;
     }
 }
 
@@ -32,11 +27,7 @@
     .place {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 24px 73px;
-    }
-    
-    .place:last-of-type {
-        padding-bottom: 0;
+        margin-bottom: 73px;
     }
 }
 
@@ -44,10 +35,6 @@
     .place {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 0px 48px;
-    }
-    
-    .place:last-of-type {
-        padding-bottom: 0;
+        margin-bottom: 48px;
     }
 }

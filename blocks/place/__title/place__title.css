@@ -1,5 +1,7 @@
 .place__title {
     font-family: "Inter", Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

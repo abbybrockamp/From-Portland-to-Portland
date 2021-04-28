@@ -1,5 +1,7 @@
 .intro__subtitle {
     font-family: "Inter", Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -7,15 +9,16 @@
     color: #fff;
     max-width: 690px;
     padding-bottom: 32px;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .lead__subtitle {
+    .intro__subtitle {
         max-width: 720px;
     }
 }
 @media screen and (max-width: 320px) {
-    .lead__subtitle {
+    .intro__subtitle {
         line-height: 30px;
         max-width: 288px;
     }

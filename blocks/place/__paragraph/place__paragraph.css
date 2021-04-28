@@ -1,5 +1,7 @@
 .place__paragraph {
     font-family: "Inter", Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

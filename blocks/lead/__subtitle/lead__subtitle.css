@@ -3,6 +3,8 @@
     color: #fff;
     max-width: 620px;
     font-family: "Inter", Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
