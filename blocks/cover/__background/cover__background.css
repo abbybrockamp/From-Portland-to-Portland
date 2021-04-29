@@ -1,27 +1,9 @@
 .cover__background {
     background-image: url(../../../images/cover-route.jpg);
-    background-size: cover;
     background-position: center;
-    max-width: 1184px;
-    height: 740px;
-    position: relative;
-    z-index: 1;
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__background {
-        height: 740px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__background {
-        height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__background {
-        height: 200px;
-    }
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 1184px;
+    min-height: 720px;
 }

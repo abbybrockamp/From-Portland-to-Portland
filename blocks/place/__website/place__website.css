@@ -1,22 +1,9 @@
 .place__website {
-    padding-left: 40px;
     align-self: flex-end;
-}
-
-@media screen and (max-width: 1024px) {
-    .place__website {
-        padding-left: 32px;
-    }    
-}
-
-@media screen and (max-width: 768px) {
-    .place__website {
-        padding-left: 28px;
-    }  
 }
 
 @media screen and (max-width: 320px) {
     .place__website {
-        padding: 30px 16px 0;
-    }  
+        padding: 0 16px;
+    }
 }

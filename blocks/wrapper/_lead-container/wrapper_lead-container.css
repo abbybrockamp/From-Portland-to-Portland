@@ -1,3 +1,7 @@
+.wrapper_lead-container {
+    padding: 0 48px;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper_lead-container {
         padding: 0;
