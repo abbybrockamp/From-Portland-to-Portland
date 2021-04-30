@@ -1,5 +1,5 @@
-@import url(./__item/intro__list__item.css);
-@import url(./__item/__item_bold/intro__list__item_bold.css);
+@import url(./__item/list__item.css);
+@import url(./__item/__item_bold/list__item_bold.css);
 
 .intro__list {
     max-width: 690px;
