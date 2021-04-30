@@ -1,9 +1,9 @@
-.travel-stats__item_bold {
+.intro__list__item {
     font-family: "Inter", Helvetica;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     color: #fff;
