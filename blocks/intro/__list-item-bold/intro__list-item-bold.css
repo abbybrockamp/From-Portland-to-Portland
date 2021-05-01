@@ -1,9 +1,9 @@
-.intro__list-item_bold {
+.intro__list-item-bold {
     font-family: "Inter", Helvetica;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     color: #fff;
