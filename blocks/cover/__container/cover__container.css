@@ -4,6 +4,19 @@
     display: flex;
     max-width: 1184px;
     min-height: 740px;
+    background-image: url(../../../images/cover-route.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cover__container::before {
+    background: #2A2C2F;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1024px) {
