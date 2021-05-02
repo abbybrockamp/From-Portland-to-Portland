@@ -1,5 +1,9 @@
 # TITLE / From Portland to Portland
 
+## CONTACT
+Abby Brockamp - abby.brockamp@gmail.com
+* [Project Link](https://abbybrockamp.github.io/From-Portland-to-Portland/)
+
 
 ## DESCRIPTION
 
