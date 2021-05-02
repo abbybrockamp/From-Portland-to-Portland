@@ -1,7 +1,7 @@
 .lead__caption {
     color: #fff;
     text-transform: uppercase;
-    font-family: "Inter", Helvetica;
+    font-family: "Inter", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -13,12 +13,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .lead__caption {
-        padding: 8px 0 0 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .lead__caption {
         padding: 8px 0 0 24px;
     }

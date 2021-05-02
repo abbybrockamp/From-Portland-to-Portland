@@ -8,10 +8,18 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+    padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper_footer {
+        padding: 0 24px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
         display: block;
+        padding: 0 16px;
     }
 }

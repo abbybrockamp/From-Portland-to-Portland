@@ -1,6 +1,6 @@
 .header__language-link {
     color: #fff;
-    font-family: "Inter", Helvetica;
+    font-family: "Inter", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
@@ -10,15 +10,21 @@
     margin: 0;
     padding: 0 18px 0 0;
     text-decoration: none;
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
 }
 
 .header__language-link:last-of-type {
     padding: 0;
 }
 
-.header__language-link:active {
-    text-decoration: underline;
-}
+.header__language-link:visited {
+    color:white;
+    }
+    
+.header__language-link:hover {
+    opacity: 0.8;
+    }
 
 @media screen and (max-width: 320px) {
     .header__language-link {

@@ -6,9 +6,4 @@
     top: 0;
     position: absolute;
     z-index: 2;
-    transition: opacity .4s ease-in-out;
-}
-
-.cover__overlay:hover {
-    opacity: .8;
 }
