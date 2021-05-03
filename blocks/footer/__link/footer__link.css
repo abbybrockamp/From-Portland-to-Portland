@@ -3,6 +3,7 @@
     color: #fff;
     opacity: 1;
     transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
 }
 
 .footer__link:visited {

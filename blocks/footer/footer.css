@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper_footer {
+    .footer {
         padding: 0 24px;
     }
 }
